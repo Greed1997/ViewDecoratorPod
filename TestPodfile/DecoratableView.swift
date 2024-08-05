@@ -13,7 +13,7 @@ extension UIView: DecoratableView {}
 
 public extension DecoratableView {
     
-    public init(decorator: ViewDecorator<Self>) {
+    init(decorator: ViewDecorator<Self>) {
         self.init(frame: .zero)
         decorate(with: decorator)
     }
