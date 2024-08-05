@@ -11,7 +11,7 @@ public protocol DecoratableView: UIView {}
 
 extension UIView: DecoratableView {}
 
-extension DecoratableView {
+public extension DecoratableView {
     
     public init(decorator: ViewDecorator<Self>) {
         self.init(frame: .zero)
