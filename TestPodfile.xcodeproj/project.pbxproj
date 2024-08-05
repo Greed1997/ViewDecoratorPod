@@ -55,6 +55,14 @@
 		84CD96032C3695630061A6B1 /* TestPodfile */ = {
 			isa = PBXGroup;
 			children = (
+				84CD96952C60B3140061A6B1 /* ViewDecorator */,
+			);
+			path = TestPodfile;
+			sourceTree = "<group>";
+		};
+		84CD96952C60B3140061A6B1 /* ViewDecorator */ = {
+			isa = PBXGroup;
+			children = (
 				84CD96492C5A37040061A6B1 /* ViewDecorator + UILabel.swift */,
 				84CD964B2C5A3CD00061A6B1 /* ViewDecorator + UIButton.swift */,
 				84CD964D2C5A45C70061A6B1 /* ViewDecorator + UIView.swift */,
@@ -62,7 +70,7 @@
 				84CD96182C36ABAF0061A6B1 /* ViewDecorator.swift */,
 				84CD961A2C36AC550061A6B1 /* DecoratableView.swift */,
 			);
-			path = TestPodfile;
+			path = ViewDecorator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
